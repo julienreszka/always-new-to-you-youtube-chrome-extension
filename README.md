@@ -2,6 +2,8 @@
 
 Chrome extension that automatically clicks on 'New to you' button on Youtube home page
 
+![Screenshot of New to you button](screenshots/screenshot-1.png)
+
 ## Features
 
 - Automatically clicks on 'New to you' button on Youtube home page
