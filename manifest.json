@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Always New to you chrome extension",
+  "description": "Chrome extension that clicks on 'New to you' button on Youtube home page",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
