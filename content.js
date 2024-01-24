@@ -1,16 +1,16 @@
 const work = () => {
-  console.log('work')
+  // console.log('work')
   var element = document.querySelector('[title="New to you"]');
   if (element && element.parentElement.getAttribute('aria-selected') !== 'true') {
     element.click();
-    console.log('clicked')
+    // console.log('clicked')
     setTimeout(() => {
       element.scrollIntoView({
         behavior: 'smooth',
         block: 'center',
         inline: "end"
       });
-      console.log('scrolled')
+      // console.log('scrolled')
     }, 0);
   }
 }
