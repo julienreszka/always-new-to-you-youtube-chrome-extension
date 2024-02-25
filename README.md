@@ -24,13 +24,14 @@ Either:
 
 Or If you don't know how to clone
 
-1. Click on the green button with "< > code" to open the dropdown download the zip file ![Screenshot of Download zip button](screenshots/download-zip.png)
-2. extract it
-3. Go to the instruction to [Load the extension](#load-the-extension)
+1. Click on the green button with "< > code" to open the dropdown ![Screenshot of Download zip button](screenshots/download-zip.png)
+2. Click on "Download ZIP"
+3. Extract the zip file to a folder on your local machine
+4. Go to the instruction to [Load the extension](#load-the-extension)
 
 ### Load the extension
 
-Once you have the extension folder: on your local machine
+Once you have the extension folder on your local machine
 
 1. Open Chrome and navigate to `chrome://extensions`.
 2. Enable Developer mode by clicking the toggle switch at the top right. ![Screenshot of Developer mode toggle](screenshots/developer-mode.png)
