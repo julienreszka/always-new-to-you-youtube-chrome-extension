@@ -15,7 +15,7 @@ YouTube's recommendation system is based on your viewing habits, comparing them 
 
 ## Installation
 
-1. Clone this repository to your local machine. (If you don't know how to clone you can download the zip file and extract it)
+1. Clone this repository to your local machine. (If you don't know how to clone you can click on the green button with "code" to download the zip file, then you extract it)
 2. Open Chrome and navigate to `chrome://extensions`.
 3. Enable Developer mode by clicking the toggle switch at the top right.
 4. Click the `Load unpacked` button and select the extension directory.
