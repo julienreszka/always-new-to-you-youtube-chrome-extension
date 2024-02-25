@@ -1,6 +1,15 @@
 const work = () => {
   // console.log('work')
-  var element = document.querySelector('[title="New to you"]');
+  var element = null
+
+  var elInEN = document.querySelector('[title="New to you"]');
+  var elInFR = document.querySelector('[title="Nouveautés"]');
+  if (elInEN) {
+    element = elInEN;
+  }
+  if (elInFR) {
+    element = elInFR;
+  }
   if (element && element.parentElement.getAttribute('aria-selected') !== 'true') {
     element.click();
     // console.log('clicked')
